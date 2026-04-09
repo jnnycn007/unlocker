@@ -89,20 +89,9 @@ If a new VMware version is installed the patches will be lost as the update will
 You will need to re-run the unlock program to patch the newly installed VMware files. This does not apply to the Arch Linux AUR packages due to the provided ALPM hooks.
 
 ## 2.5 VMware Tools
-The Unlocker provides the VMware tools ISO images. Version 16/17 of Workstation Pro recognises the darwin.iso files and the tools can be installed in the usual way by using the "Install VMware Tools" menu item. The Player version does not automatically pick up the ISO images and so
-the ISO must be maually attached to the VM via the guest's settings.
+The Unlocker provides the VMware tools ISO images. Version 16/17/25H2 of Workstation Pro recognises the darwin.iso files and the tools can be installed in the usual way by using the "Install VMware Tools" menu item. The Player version does not automatically pick up the ISO images and so the ISO must be maually attached to the VM via the guest's settings.
 
-## 3. VMware Downloads
-These URLs will link to the latest versions of VMware's hosted products:
-
-* VMware Fusion https://vmware.com/go/getfusion
-* VMware Workstation for Windows https://www.vmware.com/go/getworkstation-win
-* VMware Workstation for Linux https://www.vmware.com/go/getworkstation-linux
-* VMware Player for Windows https://www.vmware.com/go/getplayer-win
-* VMware Player for Linux https://www.vmware.com/go/getplayer-linux
-* VMware Guest Tools https://vmware.com/go/tools
-
-## 4. Thanks
+## 3. Thanks
 Thanks to Zenith432 for originally building the C++ Unlocker and Mac Son of Knife
 (MSoK) for all the testing and support.
 
